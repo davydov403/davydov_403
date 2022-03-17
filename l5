@@ -1,0 +1,27 @@
+CREATE TABLE users(
+  id int(10) not null PRIMARY KEY,
+  name varchar(100),
+  surname varchar(100),
+  patronymic varchar(100),
+  birthday date);
+
+CREATE TABLE category(
+  id_category int not null PRIMARY KEY,
+  category varchar(100),
+  parent_category int);
+
+CREATE TABLE tag(
+  id_tag int not null PRIMARY KEY,
+  tag_name varchar(100),
+  color varchar(50));
+
+CREATE TABLE project(
+  id_project int not null PRIMARY KEY,
+  project_name varchar(100));
+
+CREATE TABLE task(
+  task_name varchar(100),
+  start_datetime datetime,
+  end_datetime datetime,
+  project int not null,
+  category int not null),
