@@ -1,4 +1,4 @@
-INSERT INTO `users (`name`,`surname`,`patronymic`,`email`,`birthday`,`street`,`addr_index`,`phone`,`company`,`job`,`city`,`gender`)
+INSERT INTO users (name,surname,patronymic,email,birthday,street,addr_index,phone,company,job,city,gender) 
 VALUES
   ("Nissim","Berg","Joshua","nunc.in@icloud.couk","09/17/18","6944 Vestibulum, Avenue","17136","(362) 574-5463",6,"Vel Lectus Institute",1,1),
   ("Flavia","Gillespie","Gregory","semper.egestas@protonmail.com","07/28/67","6584 Eu Av.","363044","1-803-463-3515",7,"Malesuada Foundation",3,1),
